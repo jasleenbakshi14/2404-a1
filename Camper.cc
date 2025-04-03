@@ -1,6 +1,8 @@
 #include "Camper.h"
 #include <iostream>
 
+// cc file for Camper
+
 using namespace std;
 
 Camper::Camper() {
@@ -49,3 +51,4 @@ void Camper::print() const {
     cout << "Check-out Date: ";
     check_out.print();
 }
+
